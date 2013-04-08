@@ -2,7 +2,6 @@ require "watir-webdriver"
 
 	browser = Watir::Browser.new :chrome
 		
-		#Testing adding comment
 		#testing environment Endpoint
 		url = "http://test.hayneedle.local"
 		
