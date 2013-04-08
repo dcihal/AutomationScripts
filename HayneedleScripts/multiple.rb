@@ -1,0 +1,6 @@
+#require "./MyAccount_Verify"
+require "./CheckOutProcess"
+require "./Search_and_Narrow"
+require "./Select_Sub_Category"
+#require "./SmokeTest"
+#require "./relevancy"
