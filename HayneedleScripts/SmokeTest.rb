@@ -32,7 +32,7 @@ require "watir-webdriver"
 						rescue Exception => e
 							puts "Not a Active Site"
 							if browser.img(:src, /nicheLogo/).exists?
-								puts "Redirected to " + browser.url
+								puts "Site did not load, can't find site logo"
 							end
 						end
 			end
