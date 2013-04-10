@@ -19,14 +19,6 @@ require 'win32ole'
 				url = "http://www.hayneedle.com"
 			end
 
-			if env == "test"
-				env2 = "local"
-			elsif env == "stage"
-				env2 = "local"
-			else env == "prod"
-				env2 = "com"
-			end
-
 		browser.goto(url)
 
 			#check to see if survey modal pops up	
@@ -49,6 +41,7 @@ require 'win32ole'
 			browser.frame(:id, "SignInUpIframe").text_field(:id, "si_password").set("Hayneedle1")
 			browser.frame(:id, "SignInUpIframe").button(:class, "floatLeft").click
 
+sleep 1
 			browser.wait_until {browser.text.include? "Welcome Automation"}
 
 			#Go to Manage Profile page
@@ -56,13 +49,7 @@ require 'win32ole'
 			
 			#browser.a(:href, "https://accounts.hayneedle.com/account/global)_account.cfm")
 			
-			if env == "test"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://" + env + "accounts.hayneedle." + env2 + "/account/global_account.cfm").click
-			elsif env == "stage"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://" + env + "accounts.hayneedle." + env2 + "/account/global_account.cfm").click
-			else env == "prod"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://accounts.hayneedle." + env2 + "/account/global_account.cfm").click	
-			end
+			browser.div(:id, "HN_Accounts_DD").a(:text, "Manage Profile").click			
 						
 			if browser.text.include?("Update Your Profile Information")
 		    	puts "Test passed"
