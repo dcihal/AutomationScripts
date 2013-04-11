@@ -9,8 +9,9 @@ require "watir-webdriver"
 		
 		browser.goto(url)
 
+		sleep 1
 		if browser.a(:id, "hn_modal_close").exists?
-			browser.a(:id, "hn_modal_close").wait_until_present
+			browser.a(:id, "hn_modal_close").click
 		end
 
 		sleep 2
