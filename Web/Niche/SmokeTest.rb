@@ -16,7 +16,7 @@ require "watir-webdriver"
 		sleep 2
 		#open relevancy text file and read each line
 
-		File.open("Data/activeSites.txt").each_line.with_index do |line, counter|
+		File.open("../../Data/activeSites.txt").each_line.with_index do |line, counter|
 			line.strip!
 			puts "#{counter + 1}: #{line}"
 
