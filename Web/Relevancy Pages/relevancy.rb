@@ -22,7 +22,13 @@ require "watir-webdriver"
 					counter = counter + 1
 					browser.goto(url + line)
 					
-					browser.img(:src, /Hayneedle_Logo.gif/).wait_until_present
+					begin 
+						browser.img(:src, /Hayneedle_Logo.gif/).wait_until_present do
+					end
+					
+				rescue Exception => e 
+					puts "Site failed to load"
+				end
 
 					if browser.img(:src, /errorBanner.gif/).exists?
 						puts "Relevancy Page 404"
