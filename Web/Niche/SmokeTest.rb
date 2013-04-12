@@ -13,8 +13,8 @@ require "watir-webdriver"
 		if browser.a(:id, "hn_modal_close").exists?
 			browser.a(:id, "hn_modal_close").click
 		end
-
-		sleep 2
+		sleep 1
+		
 		#open relevancy text file and read each line
 
 		File.open("../../Data/activeSites.txt").each_line.with_index do |line, counter|
