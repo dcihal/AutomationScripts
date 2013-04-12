@@ -5,7 +5,7 @@ require 'win32ole'
 	browser = Watir::Browser.new :chrome
 		
 		excel = WIN32OLE::new("excel.Application")
-		path = "C:/Users/dcihal/Documents/GitHub/AutomationScripts/Data/Login.xlsx"
+    	path = File.expand_path("../../../Data/Login.xlsx") 
 		workbook = excel.Workbooks.Open(path)
 		worksheet = workbook.WorkSheets(1) # Get first workbook
 		env = worksheet.Range('D2').Value # Get the value at cell in worksheet.
@@ -19,20 +19,14 @@ require 'win32ole'
 				url = "http://www.hayneedle.com"
 			end
 
-			if env == "test"
-				env2 = "local"
-			elsif env == "stage"
-				env2 = "local"
-			else env == "prod"
-				env2 = "com"
-			end
-
 		browser.goto(url)
 
+sleep 1
 			#check to see if survey modal pops up	
 			if browser.a(:id, "hn_modal_close").exists?
 				browser.a(:id, "hn_modal_close").click
 			end
+sleep 1
 
 			#Enter 0 into the wrench tool to clear any session
 			browser.img(:class, "floatLeft marginTopOnly1px").click
@@ -49,21 +43,14 @@ require 'win32ole'
 			browser.frame(:id, "SignInUpIframe").text_field(:id, "si_password").set("Hayneedle1")
 			browser.frame(:id, "SignInUpIframe").button(:class, "floatLeft").click
 
+sleep 2
+
 			browser.wait_until {browser.text.include? "Welcome Automation"}
 
 			#Go to Manage Profile page
 			browser.div(:id, "HN_Accounts_Btn").click
-			
-			#browser.a(:href, "https://accounts.hayneedle.com/account/global)_account.cfm")
-			
-			if env == "test"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://" + env + "accounts.hayneedle." + env2 + "/account/global_account.cfm").click
-			elsif env == "stage"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://" + env + "accounts.hayneedle." + env2 + "/account/global_account.cfm").click
-			else env == "prod"
-				browser.div(:id, "HN_Accounts_DD").a(:href, "https://accounts.hayneedle." + env2 + "/account/global_account.cfm").click	
-			end
-						
+			browser.div(:id, "HN_Accounts_DD").a(:text, "Manage Profile").click			
+					
 			if browser.text.include?("Update Your Profile Information")
 		    	puts "Test passed"
 		    else

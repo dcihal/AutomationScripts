@@ -5,8 +5,7 @@ require 'win32ole'
 	browser = Watir::Browser.new :chrome
 		
 		excel = WIN32OLE::new("excel.Application")
-		#path = "C:/Users/dcihal/Documents/GitHub/AutomationScripts/Data/Login.xlsx"
-		path = "../Data/Login.xlsx"
+		path = File.expand_path("../Data/Login.xlsx") 
 		workbook = excel.Workbooks.Open(path)
 		worksheet = workbook.WorkSheets(1) # Get first workbook
 		env = worksheet.Range('D2').Value # Get the value at cell in worksheet.
