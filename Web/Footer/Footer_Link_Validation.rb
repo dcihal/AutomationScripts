@@ -6,7 +6,7 @@ require "win32ole"
 require "test/unit"
 
 class FooterLinks < Test::Unit::TestCase
-	def test_the_links_under_AboutHayneedle_in_footer
+	def test_AboutHayneedle
 
 		browser = Watir::Browser.new :chrome
 
