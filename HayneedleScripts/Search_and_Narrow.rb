@@ -7,7 +7,8 @@ require "watir-webdriver"
 		
 		browser.goto(url)
 
-			#check to see if survey modal pops up	
+			#check to see if survey modal pops up
+			sleep 1	
 			if browser.a(:id, "hn_modal_close").exists?
 				browser.a(:id, "hn_modal_close").click
 			end

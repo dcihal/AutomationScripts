@@ -9,11 +9,12 @@ require "watir-webdriver"
 		
 		browser.goto(url)
 
+		sleep 1
 		if browser.a(:id, "hn_modal_close").exists?
-			browser.a(:id, "hn_modal_close").wait_until_present
+			browser.a(:id, "hn_modal_close").click
 		end
-
-		sleep 2
+		sleep 1
+		
 		#open relevancy text file and read each line
 
 		File.open("../../Data/activeSites.txt").each_line.with_index do |line, counter|
