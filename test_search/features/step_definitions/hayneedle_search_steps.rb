@@ -18,6 +18,6 @@ And(/^I click the Go button$/) do
   @browser.button(:id, 'HN_SearchSubmit').click
 end
 
-Then(/^I should see a list of related products$/) do
-  fail unless @browser.text.include? 'Red Couch'
+Then(/^I should see a list of related products and "(.*?)" at the top of the result list$/) do |expected|
+  @browser.text.should include expected
 end
