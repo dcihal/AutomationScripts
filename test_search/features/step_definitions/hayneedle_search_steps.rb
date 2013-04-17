@@ -1,5 +1,5 @@
-Given(/^I am on Hayneedles website on "(.*?)" environment$/) do |url|
-  @browser.goto(url)
+Given(/^I am on Hayneedles website$/) do
+  @browser.goto(@url)
 
   sleep 1
   #check to see if survey modal pops up

@@ -2,12 +2,8 @@ require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
 
-#Cucumber::Rake::Task.new(:features) do |t|
+Cucumber::Rake::Task.new(:features) do |t|
   #t.profile = 'default'
-#end
-
-#task :default => :features
-
-Cucumber::Rake::Task.new(:run) do |task|
-  task.searching_on_hayneedle = ["features"]
 end
+
+task :default => :features
