@@ -6,7 +6,7 @@ Feature: Signing into Hayneedle Account
 
   Scenario: Signing in
     Given I am on Hayneedles website
-    When I click on the Account dropdown and click Sign In
+    When I click on the Account drop down and click Sign In
     And when the sign in modal pops up, I enter "automation@test.com" and "Hayneedle1" for the username and password before clicking the sign in button
     And now hayneedle should be welcoming "Automation"
     And when I click the welcoming text, I will click to manager my profile
