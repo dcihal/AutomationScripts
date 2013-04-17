@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\chromedriver.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\cucumber.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\features\searching_on_hayneedle.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\features\step_definitions\hayneedle_search_steps.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\features\support\env.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\test_search\features\support\hooks.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jlesch.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jlesch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" />
     </list>
     <ignored path="AutomationScripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +13,7 @@
     <file path="/Rakefile" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366148076895" ignored="false" />
     <file path="/signing_into_hayneedle_account.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366218822528" ignored="false" />
     <file path="/test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222716163" ignored="false" />
+    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366224039175" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
       <file leaf-file-name="master_method_tests.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.06137184">
+            <state line="20" column="33" selection-start="785" selection-end="785" vertical-scroll-proportion="0.62846583">
               <folding />
             </state>
           </provider>
@@ -550,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.06137184">
+        <state line="20" column="33" selection-start="785" selection-end="785" vertical-scroll-proportion="0.62846583">
           <folding />
         </state>
       </provider>
