@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/chromedriver.log" afterPath="$PROJECT_DIR$/Hayneedle_Automation/chromedriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/signing_into_hayneedle_account.feature" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/signing_into_hayneedle_account.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" name="Default" comment="" />
+>>>>>>> AddingToMasterMethodFile
     <ignored path="AutomationScripts.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366223306824" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366225553907" ignored="false" />
     <file path="/hooks.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222425683" ignored="false" />
-    <file path="/hayneedle_search_steps.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366223430315" ignored="false" />
+    <file path="/hayneedle_search_steps.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366225705049" ignored="false" />
     <file path="/searching_on_hayneedle.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366144095560" ignored="false" />
     <file path="/Rakefile" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366148076895" ignored="false" />
     <file path="/signing_into_hayneedle_account.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366218822528" ignored="false" />
     <file path="/test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222716163" ignored="false" />
+<<<<<<< HEAD
     <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366224039175" ignored="false" />
     <file path="/view_saved_address.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366224430476" ignored="false" />
+=======
+    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366226112194" ignored="false" />
+>>>>>>> AddingToMasterMethodFile
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +45,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="signing_into_hayneedle_account.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/signing_into_hayneedle_account.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="22" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="master_method_tests.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="102" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.88828826">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="hayneedle_search_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/hayneedle_search_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+>>>>>>> AddingToMasterMethodFile
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="view_saved_address.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,6 +84,12 @@
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/hayneedle_search_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="2" selection-start="472" selection-end="509" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="searching_on_hayneedle.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/searching_on_hayneedle.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="5" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+>>>>>>> AddingToMasterMethodFile
               <folding />
             </state>
           </provider>
@@ -129,6 +160,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,17 +235,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Cucumber.signing_into_hayneedle_account">
     <configuration default="false" name="HN_Search" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
@@ -464,16 +495,24 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25121555" sideWeight="0.6605081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3394919" sideWeight="0.9980683" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2552674" sideWeight="0.6709007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290993" sideWeight="0.9980683" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> AddingToMasterMethodFile
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -549,28 +588,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="20" column="33" selection-start="785" selection-end="785" vertical-scroll-proportion="0.62846583">
+=======
+        <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+>>>>>>> AddingToMasterMethodFile
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/signing_into_hayneedle_account.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="22" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/hayneedle_search_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/searching_on_hayneedle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+>>>>>>> AddingToMasterMethodFile
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/hayneedle_search_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="21" column="2" selection-start="472" selection-end="509" vertical-scroll-proportion="0.0">
+=======
+        <state line="9" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+>>>>>>> AddingToMasterMethodFile
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="22" column="42" selection-start="916" selection-end="916" vertical-scroll-proportion="0.7016885">
+=======
+        <state line="29" column="102" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.88828826">
+>>>>>>> AddingToMasterMethodFile
           <folding />
         </state>
       </provider>
