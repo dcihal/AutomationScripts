@@ -1,12 +1,12 @@
-Given(/^I am on Hayneedles website$/) do
-  @browser.goto(@url)
+require_relative 'master_method_tests'
 
-  sleep 1
-  #check to see if survey modal pops up
-  if @browser.a(:id, 'hn_modal_close').exists?
-    @browser.a(:id, 'hn_modal_close').click
-  end
-  sleep 1
+include MasterMethodTests
+
+Given(/^I am on Hayneedles website$/) do
+
+  goto_hayneedle_site
+
+  close_popup
 
 end
 
