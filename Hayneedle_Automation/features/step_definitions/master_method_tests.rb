@@ -17,9 +17,7 @@ module MasterMethodTests
     @browser.goto('www.hayneedle.com')
   end
 
-  def signin(username, password)
-    @browser.div(:id, 'HN_Accounts_Btn').click
-    @browser.div(:id, 'HN_Accounts_DD').a(:href, '/templates/hn_modals.cfm?mode=sign_in').click
+  def sign_in(username, password)
     @browser.wait_until {@browser.text.include? 'HAYNEEDLE ACCOUNTS'}
     @browser.frame(:id, 'SignInUpIframe').text_field(:id, 'si_email').set(username)
     @browser.frame(:id, 'SignInUpIframe').text_field(:id, 'si_password').set(password)
