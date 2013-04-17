@@ -5,8 +5,8 @@ include MasterMethodTests
 Given(/^I am on Hayneedles website$/) do
 
   goto_hayneedle_site
-
   close_popup
+  signin(@username, @password)
 
 end
 
