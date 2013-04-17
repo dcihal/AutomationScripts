@@ -4,7 +4,6 @@
 
 module MasterMethodTests
 
-<<<<<<< HEAD
   #This method will go to the site/environment that you define below.
   def goto_hayneedle_site
     #the @browser variable is being defined the in the hooks.rb file
@@ -12,7 +11,7 @@ module MasterMethodTests
   end
 
   #Calling this method will close the popup that happens when you go to hayneedle with a clean session(first time visitor).
-=======
+
   #This will be where you change the environment (Enter url at line 5)
   def goto_hayneedle_site
     @browser.goto('www.hayneedle.com')
@@ -31,7 +30,6 @@ module MasterMethodTests
     @browser.frame(:id, "SignInUpIframe").button(:class, "floatLeft").click
   end
 
->>>>>>> AddingToMasterMethodFile
   def close_popup
     sleep 1
     #check to see if survey modal pops up
