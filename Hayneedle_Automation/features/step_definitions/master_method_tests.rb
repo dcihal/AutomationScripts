@@ -19,15 +19,12 @@ module MasterMethodTests
 
   #This will be where you change the username and password (Lines 10 and 11)
   def signin(username, password)
-    @username = "automation@test.com"
-    @password = "Hayneedle1"
-
-    @browser.div(:id, "HN_Accounts_Btn").click
-    @browser.div(:id, "HN_Accounts_DD").a(:href, "/templates/hn_modals.cfm?mode=sign_in").click
-    @browser.wait_until {@browser.text.include? "HAYNEEDLE ACCOUNTS"}
-    @browser.frame(:id, "SignInUpIframe").text_field(:id, "si_email").set(@username)
-    @browser.frame(:id, "SignInUpIframe").text_field(:id, "si_password").set(@password)
-    @browser.frame(:id, "SignInUpIframe").button(:class, "floatLeft").click
+    @browser.div(:id, 'HN_Accounts_Btn').click
+    @browser.div(:id, 'HN_Accounts_DD').a(:href, '/templates/hn_modals.cfm?mode=sign_in').click
+    @browser.wait_until {@browser.text.include? 'HAYNEEDLE ACCOUNTS'}
+    @browser.frame(:id, 'SignInUpIframe').text_field(:id, 'si_email').set(username)
+    @browser.frame(:id, 'SignInUpIframe').text_field(:id, 'si_password').set(password)
+    @browser.frame(:id, 'SignInUpIframe').button(:class, 'floatLeft').click
   end
 
   def close_popup
@@ -44,9 +41,9 @@ module MasterMethodTests
     @browser.close
   end
 
-  def search
-    @browser.form(:id, "searchCatPri").text_field(:id, "HN_Search").set("chair")
-    @browser.form(:id, "searchCatPri").button(:id, "HN_SearchSubmit").click
+  def search(search_term)
+    @browser.form(:id, 'searchCatPri').text_field(:id, 'HN_Search').set(search_term)
+    @browser.form(:id, 'searchCatPri').button(:id, 'HN_SearchSubmit').click
   end
 
 end

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AutomationScripts.iml" afterPath="$PROJECT_DIR$/.idea/AutomationScripts.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" />
     </list>
     <ignored path="AutomationScripts.iws" />
@@ -14,7 +13,7 @@
     <file path="/Rakefile" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366148076895" ignored="false" />
     <file path="/signing_into_hayneedle_account.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366218822528" ignored="false" />
     <file path="/test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222716163" ignored="false" />
-    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366226112194" ignored="false" />
+    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366231493096" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,16 @@
       <file leaf-file-name="master_method_tests.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="985" selection-end="985" vertical-scroll-proportion="0.3437877">
+            <state line="24" column="52" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.49215922">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_saved_address.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -612,9 +620,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="985" selection-end="985" vertical-scroll-proportion="0.3437877">
+        <state line="24" column="52" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.49215922">
           <folding />
         </state>
       </provider>
