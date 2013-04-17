@@ -12,12 +12,11 @@ module MasterMethodTests
 
   #Calling this method will close the popup that happens when you go to hayneedle with a clean session(first time visitor).
 
-  #This will be where you change the environment (Enter url at line 5)
+  #This will be where you change the environment (Enter url at line 17)
   def goto_hayneedle_site
     @browser.goto('www.hayneedle.com')
   end
 
-  #This will be where you change the username and password (Lines 10 and 11)
   def signin(username, password)
     @browser.div(:id, 'HN_Accounts_Btn').click
     @browser.div(:id, 'HN_Accounts_DD').a(:href, '/templates/hn_modals.cfm?mode=sign_in').click
