@@ -9,6 +9,6 @@ Feature: Signing into Hayneedle Account
     When I click on the Account drop down and click Sign In
     And when the sign in modal pops up, I enter "automation@test.com" and "Hayneedle1" for the username and password before clicking the sign in button
     And now hayneedle should be welcoming "Automation"
-    And when I click the welcoming text, I will click to manager my profile
+    And when I click the welcoming text, I will click to manage my profile
     And I click Manage Your Address Book to see my saved address
     Then I should see "Address Book" with my saved addresses

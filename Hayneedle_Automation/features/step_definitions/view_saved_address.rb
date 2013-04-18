@@ -20,10 +20,10 @@ end
 
 And(/^now hayneedle should be welcoming "(.*?)"$/) do |name|
   @browser.img(:src, /Hayneedle_Logo.gif/).wait_until_present
-  @browser.text.should include ("Welcome")
+  @browser.text.should include name
 end
 
-And(/^when I click the welcoming text, I will click to manager my profile$/) do
+And(/^when I click the welcoming text, I will click to manage my profile$/) do
   @browser.div(:id, "HN_Accounts_Btn").click
   @browser.div(:id, "HN_Accounts_DD").a(:text, "Manage Profile").click
 end
