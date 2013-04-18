@@ -572,8 +572,8 @@ jQuery.cookie = function(name, value, options) {
 <body>
 <div id="container">
 <div id="header">
-<div class="time">33.20 s</div>
-<h1>All features in: features: <strong><span class="total">11 total, </span><span class="passed">11 passed</span></strong>
+<div class="time">28.72 s</div>
+<h1>All features in: features: <strong><span class="total">11 total, </span><span class="failed">1 failed, </span><span class="ignored">2 ignored, </span><span class="passed">8 passed</span></strong>
 </h1>
 <div id="treecontrol">
 <ul>
@@ -591,82 +591,97 @@ jQuery.cookie = function(name, value, options) {
 <ul id="tree">
 <li xmlns="" class="level top open">
 <span><em class="time">
-<div class="time">11.99 s</div>
+<div class="time">11.94 s</div>
 </em>Feature: Hayneedle Search</span>
 <ul>
 <li class="level suite open">
 <span><em class="time">
-<div class="time">11.99 s</div>
+<div class="time">11.94 s</div>
 </em>Scenario: Searching for a product</span>
 <ul>
 <li class="level test">
 <span><em class="time">
-<div class="time">6.59 s</div>
+<div class="time">6.92 s</div>
 </em><em class="status">passed</em>Given  I am on Hayneedles website</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">380 ms</div>
+<div class="time">388 ms</div>
 </em><em class="status">passed</em>When  I enter "Red Couch" into the search box</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">3.32 s</div>
+<div class="time">2.86 s</div>
 </em><em class="status">passed</em>And  I click the Go button</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">1.70 s</div>
+<div class="time">1.76 s</div>
 </em><em class="status">passed</em>Then  I should see a list of related products and "Red Couch" at the top of the result list</span>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level top open">
+<li class="level top failed open">
 <span><em class="time">
-<div class="time">21.21 s</div>
+<div class="time">16.79 s</div>
 </em>Feature: Signing into Hayneedle Account</span>
 <ul>
-<li class="level suite open">
+<li class="level suite failed open">
 <span><em class="time">
-<div class="time">21.21 s</div>
+<div class="time">16.79 s</div>
 </em>Scenario: Signing in</span>
 <ul>
 <li class="level test">
 <span><em class="time">
-<div class="time">6.59 s</div>
+<div class="time">7.78 s</div>
 </em><em class="status">passed</em>Given  I am on Hayneedles website</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">570 ms</div>
+<div class="time">527 ms</div>
 </em><em class="status">passed</em>When  I click on the Account drop down and click Sign In</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">6.08 s</div>
+<div class="time">7.13 s</div>
 </em><em class="status">passed</em>And  when the sign in modal pops up, I enter "automation@test.com" and "Hayneedle1" for the username and password before clicking the sign in button</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">1.40 s</div>
+<div class="time">1.22 s</div>
 </em><em class="status">passed</em>And  now hayneedle should be welcoming "Automation"</span>
 </li>
-<li class="level test">
+<li class="level test failed open">
 <span><em class="time">
-<div class="time">3.78 s</div>
-</em><em class="status">passed</em>And  when I click the welcoming text, I will click to manage my profile</span>
+<div class="time">124 ms</div>
+</em><em class="status">failed</em>And  when I click the welcoming text, I will click to manage my profile</span>
+<ul>
+<li class="text">
+<span class="stderr">Watir::Exception::UnknownObjectException: unable to locate element, using {:id=&gt;&quot;HN_Accounts_Bt&quot;, :tag_name=&gt;&quot;div&quot;}<br/>./features/step_definitions/view_saved_address.rb:27:in `/^when I click the welcoming text, I will click to manage my profile$/&#39;<br/>C:\Users\jlesch\Documents\GitHub\AutomationScripts\Hayneedle_Automation\features\view_saved_address.feature:13:in `And when I click the welcoming text, I will click to manage my profile&#39;<br/></span>
 </li>
-<li class="level test">
-<span><em class="time">
-<div class="time">2.18 s</div>
-</em><em class="status">passed</em>And  I click Manage Your Address Book to see my saved address</span>
+</ul>
 </li>
-<li class="level test">
+<li class="level test ignored open">
 <span><em class="time">
-<div class="time">606 ms</div>
-</em><em class="status">passed</em>Then  I should see "Address Book" with my saved addresses</span>
+<div class="time">1 ms</div>
+</em><em class="status">ignored</em>And  I click Manage Your Address Book to see my saved address</span>
+<ul>
+<li class="text">
+<span class="stdout">Skipped step<br/></span>
+</li>
+</ul>
+</li>
+<li class="level test ignored open">
+<span><em class="time">
+<div class="time">1 ms</div>
+</em><em class="status">ignored</em>Then  I should see "Address Book" with my saved addresses</span>
+<ul>
+<li class="text">
+<span class="stdout">Skipped step<br/></span>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -676,7 +691,7 @@ jQuery.cookie = function(name, value, options) {
 </div>
 </div>
 <div id="footer">
-<p>Generated by JetBrains RubyMine on 4/18/13 8:45 AM</p>
+<p>Generated by JetBrains RubyMine on 4/18/13 9:40 AM</p>
 </div>
 </body>
 </html>

@@ -10,8 +10,8 @@ include MasterMethodTests
 #end
 
 When(/^I click on the Account drop down and click Sign In$/) do
-  @browser.div(:id, "HN_Accounts_Btn").click
-  @browser.div(:id, "HN_Accounts_DD").a(:href, "/templates/hn_modals.cfm?mode=sign_in").click
+  @browser.div(:id, 'HN_Accounts_Btn').click
+  @browser.div(:id, 'HN_Accounts_DD').a(:href, '/templates/hn_modals.cfm?mode=sign_in').click
 end
 
 And(/^when the sign in modal pops up, I enter "(.*?)" and "(.*?)" for the username and password before clicking the sign in button$/) do |username, password|
@@ -24,12 +24,12 @@ And(/^now hayneedle should be welcoming "(.*?)"$/) do |name|
 end
 
 And(/^when I click the welcoming text, I will click to manage my profile$/) do
-  @browser.div(:id, "HN_Accounts_Btn").click
-  @browser.div(:id, "HN_Accounts_DD").a(:text, "Manage Profile").click
+  @browser.div(:id, 'HN_Accounts_Btn').click
+  @browser.div(:id, 'HN_Accounts_DD').a(:text, 'Manage Profile').click
 end
 
 And(/^I click Manage Your Address Book to see my saved address$/) do
-  @browser.a(:title, "Manage Your Address Book").click
+  @browser.a(:title, 'Manage Your Address Book').click
 end
 
 Then(/^I should see "(.*?)" with my saved addresses$/) do |expected|
