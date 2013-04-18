@@ -37,7 +37,7 @@ And(/^I click the checkout button$/) do
   @browser.wait_until {@browser.text.include? "ENTER YOUR SHIPPING & DELIVERY INFORMATION"}
 end
 
-And(/^I fill in all my shipping information with postal_code "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)"$/) do |postal_code, address1, address2, first_name, last_name, shipping_phone|
+And(/^I fill in all my shipping information with "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)"$/) do |postal_code, address1, address2, first_name, last_name, shipping_phone|
   @browser.text_field(:name, "postalCode").set(postal_code)
   @browser.text_field(:name, "address1").set(address1)
   @browser.text_field(:name, "address2").set(address2)
@@ -47,13 +47,13 @@ And(/^I fill in all my shipping information with postal_code "(.*?)", "(.*?)", "
   @browser.span(:class, "icon-right-open").click
 end
 
-And(/^I fill in all my billing information$/) do
+And(/^I fill in all my billing information with "(.*?)", "(.*?)", "(.*?)", "(.*?)"$/) do |card_number, expiration_month, expiration_year, security_code|
   @browser.wait_until {@browser.text.include? "ENTER YOUR BILLING INFORMATION"}
   @browser.wait_until {@browser.text.include? "PAYMENT METHOD"}
-  @browser.text_field(:id, "cardNumber").set("4111111111111111")
-  @browser.select_list(:id, "expirationMonth").select("12 - December")
-  @browser.select_list(:id, "expirationYear").select("2023")
-  @browser.text_field(:id, "securityCode").set("123")
+  @browser.text_field(:id, "cardNumber").set(card_number)
+  @browser.select_list(:id, "expirationMonth").select(expiration_month)
+  @browser.select_list(:id, "expirationYear").select(expiration_year)
+  @browser.text_field(:id, "securityCode").set(security_code)
   @browser.a(:class, "HN_BtnLgP HN_Btn_RI block reviewYourOrderButton marginTopOnly5px marginSides5px").click
 end
 

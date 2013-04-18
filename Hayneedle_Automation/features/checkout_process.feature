@@ -12,7 +12,7 @@ Feature: Hayneedle Checkout Process
     And I enter SKU "HN-ALZ079" into the search box
     And I click the Add To Cart button
     And I click the checkout button
-    And I fill in all my shipping information with postal_code "68102", "9394 W Dodge Rd", "STE 300", "Dan", "Tester", "4021234567"
-    And I fill in all my billing information
+    And I fill in all my shipping information with "68102", "9394 W Dodge Rd", "STE 300", "Dan", "Tester", "4021234567"
+    And I fill in all my billing information with "4111111111111111", "12 - December", "2023", "123"
     Then I should be able to review my order prior to placing the order
 
