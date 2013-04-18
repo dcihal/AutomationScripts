@@ -6,15 +6,9 @@ module MasterMethodTests
 
   #This method will go to the site/environment that you define below.
   def goto_hayneedle_site
-    #the @browser variable is being defined the in the hooks.rb file
-    @browser.goto('www.hayneedle.com')
-  end
-
-  #Calling this method will close the popup that happens when you go to hayneedle with a clean session(first time visitor).
-
-  #This will be where you change the environment (Enter url at line 17)
-  def goto_hayneedle_site
-    @browser.goto('www.hayneedle.com')
+    #@browser.goto('test.hayneedle.local')
+    @browser.goto('stage.hayneedle.local')
+    #@browser.goto('www.hayneedle.com')
   end
 
   def sign_in(username, password)
