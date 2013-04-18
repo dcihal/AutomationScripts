@@ -162,6 +162,3 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
-# rubyMine files
-AutomationScripts\.idea\workspace.xml
-AutomationScripts\Hayneedle_Automation\chromedriver.log
