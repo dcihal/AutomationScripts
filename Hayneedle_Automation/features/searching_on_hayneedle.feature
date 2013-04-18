@@ -1,3 +1,4 @@
+@regression, @search
 Feature: Hayneedle Search
 
   As a customer

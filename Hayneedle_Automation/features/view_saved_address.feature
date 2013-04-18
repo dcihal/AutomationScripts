@@ -1,3 +1,4 @@
+@regression, @signin
 Feature: Signing into Hayneedle Account
 
   As a customer
