@@ -163,5 +163,5 @@ pip-log.txt
 .DS_Store
 
 # rubyMine files
-.idea\workspace.xml
-Hayneedle_Automation\chromedriver.log
+AutomationScripts\.idea\workspace.xml
+AutomationScripts\Hayneedle_Automation\chromedriver.log
