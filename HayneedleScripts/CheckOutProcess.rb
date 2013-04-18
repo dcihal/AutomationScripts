@@ -3,7 +3,7 @@ require "watir-webdriver"
 	browser = Watir::Browser.new :chrome
 		
 		#testing environment Endpoint
-		url = "http://test.hayneedle.local"
+		url = "http://stage.hayneedle.local"
 		
 		browser.goto(url)
 
@@ -35,10 +35,10 @@ require "watir-webdriver"
 			#on product page
 			browser.div(:id, "ALZ079_AddToCart").click
 						
-				browser.wait_until {browser.text.include? "Cart Subtotal"}
+				browser.wait_until {browser.text.include? "Added To Cart"}
 
 			#clicking checkout in popup modal
-			browser.img(:class, "floatRight marginRight1px").click
+			browser.a(:class, "HN_BtnLgP HN_Btn_RI block marginTopOnly10px").click
 			
 				browser.wait_until {browser.text.include? "ENTER YOUR SHIPPING & DELIVERY INFORMATION"}
 
@@ -68,10 +68,10 @@ require "watir-webdriver"
 
 			#click review order
 			browser.a(:class, "HN_BtnLgP HN_Btn_RI block reviewYourOrderButton marginTopOnly5px marginSides5px").click
-      	
+
       		if browser.text.include?("PLACE MY ORDER")
 		    	puts "Test passed"
 		    else
 		   		puts "TEST FAILED!!!"
-		   	end		
+		   	end
 

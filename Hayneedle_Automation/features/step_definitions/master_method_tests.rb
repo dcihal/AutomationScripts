@@ -7,8 +7,8 @@ module MasterMethodTests
   #This method will go to the site/environment that you define below.
   def goto_hayneedle_site
     #@browser.goto('test.hayneedle.local')
-    @browser.goto('stage.hayneedle.local')
-    #@browser.goto('www.hayneedle.com')
+    #@browser.goto('stage.hayneedle.local')
+    @browser.goto('www.hayneedle.com')
   end
 
   def sign_in(username, password)
