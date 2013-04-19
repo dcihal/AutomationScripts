@@ -36,5 +36,4 @@ module MasterMethodTests
     @browser.form(:id, 'searchCatPri').text_field(:id, 'HN_Search').set(search_term)
     @browser.form(:id, 'searchCatPri').button(:id, 'HN_SearchSubmit').click
   end
-
 end
