@@ -10,7 +10,7 @@ When(/^the sign in modal pops up, close it$/) do
    close_popup
 end
 
-And(/^open the list of active niche sites$/) do
+And(/^enter the "(.*?)" into the browser$/) do |url|
 
   if @browser.url == 'http://www.hayneedle.com/'
     env = 'http://www.'
@@ -23,17 +23,17 @@ And(/^open the list of active niche sites$/) do
     tld = '.local/'
   end
 
-  open_txt_file('activeSites.txt')
+  @changingURL = env + url + tld
 
-  changingURL = env + line + tld
-
-  @browser.goto(changingURL)
+  @browser.goto(@changingURL)
 end
 
-And(/^verify that page loaded$/) do
+Then(/^verify that page loaded and report any sites that didnt load$/) do
 
-end
-
-Then(/^the results will display what sites did not load if any$/) do
-
+  #begin
+    @browser.img(:src, /nicheLogo/).wait_until_present(5) #do
+  #end
+  #rescue Exception => e
+  #  puts "Site #{@changingURL} Did not load! #{e}" #if not @browser.img(:src, /nicheLogo/).exists?
+  #end
 end
