@@ -7,8 +7,8 @@ module MasterMethodTests
   #This method will go to the site/environment that you define below.
   def goto_hayneedle_site
     #@browser.goto('test.hayneedle.local')
-    #@browser.goto('stage.hayneedle.local')
-    @browser.goto('www.hayneedle.com')
+    @browser.goto('stage.hayneedle.local')
+    #@browser.goto('www.hayneedle.com')
   end
 
   def sign_in(username, password)
@@ -37,4 +37,12 @@ module MasterMethodTests
     @browser.form(:id, 'searchCatPri').button(:id, 'HN_SearchSubmit').click
   end
 
+  #This method will open a txt file and read the file line by line, you will need to pass in what file to open
+  def open_txt_file(file_name)
+    puts 'Data/' + file_name
+     File.open('Data/' + file_name).each_line.with_index do |line, count|
+       line.strip!
+       return line
+     end
+  end
 end
