@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/Data/activeSites.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AutomationScripts.iml" afterPath="$PROJECT_DIR$/.idea/AutomationScripts.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hayneedle_Automation/Automation Test Results/Test Results - all_site_smoke_test.html" />
+      <change type="DELETED" beforePath="C:\Users\jlesch\Documents\GitHub\AutomationScripts\Hayneedle_Automation\features\step_definitions\Data\activeSites.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/chromedriver.log" afterPath="$PROJECT_DIR$/Hayneedle_Automation/chromedriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/support/hooks.rb" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/support/hooks.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" afterPath="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AutomationScripts.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366317285863" ignored="false" />
-    <file path="/hooks.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222425683" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366380201026" ignored="false" />
+    <file path="/hooks.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366388174839" ignored="false" />
     <file path="/hayneedle_search_steps.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366232079396" ignored="false" />
     <file path="/searching_on_hayneedle.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366291144462" ignored="false" />
     <file path="/Rakefile" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366148076895" ignored="false" />
     <file path="/signing_into_hayneedle_account.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366218822528" ignored="false" />
     <file path="/test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366222716163" ignored="false" />
-    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366317344276" ignored="false" />
+    <file path="/master_method_tests.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366385945207" ignored="false" />
     <file path="/view_saved_address.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366286714331" ignored="false" />
     <file path="/view_saved_address.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366291129903" ignored="false" />
     <file path="/CheckOutProcess.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366307989309" ignored="false" />
     <file path="/checkout_process.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366310296024" ignored="false" />
     <file path="/checkout_process.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366310455752" ignored="false" />
-    <file path="/all_site_smoke_test.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366312289828" ignored="false" />
-    <file path="/all_site_smoke_test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366317110463" ignored="false" />
+    <file path="/all_site_smoke_test.feature" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366394216317" ignored="false" />
+    <file path="/all_site_smoke_test.rb" changelist="d8c8c5cd-0f29-4b8d-ad28-6fea5f8c9aa9" time="1366395175329" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +41,6 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="SmokeTest.rb" pinned="false" current="true" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/HayneedleScripts/SmokeTest.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Hayneedle_Automation/Automation Test Results" openResultsInEditor="true" userTempatePath="" />
   <component name="FavoritesManager">
@@ -69,25 +51,16 @@
       <file leaf-file-name="all_site_smoke_test.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+            <state line="18" column="59" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master_method_tests.rb" pinned="false" current="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="44" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.64752793">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_site_smoke_test.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="all_site_smoke_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+            <state line="35" column="43" selection-start="786" selection-end="786" vertical-scroll-proportion="0.72886765">
               <folding />
             </state>
           </provider>
@@ -111,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test_search/Rakefile" />
         <option value="$PROJECT_DIR$/test_search/features/searching_on_hayneedle.feature" />
         <option value="$PROJECT_DIR$/test_search/features/signing_into_hayneedle_account.feature" />
         <option value="$PROJECT_DIR$/test_search/features/support/hooks.rb" />
@@ -124,9 +96,10 @@
         <option value="$PROJECT_DIR$/HayneedleScripts/CheckOutProcess.rb" />
         <option value="$PROJECT_DIR$/Hayneedle_Automation/features/checkout_process.feature" />
         <option value="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/checkout_process.rb" />
+        <option value="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" />
+        <option value="$PROJECT_DIR$/Hayneedle_Automation/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" />
         <option value="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb" />
-        <option value="$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb" />
       </list>
     </option>
   </component>
@@ -263,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
+              <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,10 +261,6 @@
               <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -300,13 +269,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -562,10 +531,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber.all_site_smoke_test" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.All features in: features" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.checkout_process" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.checkout_process" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.checkout_process" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.all_site_smoke_test" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.all_site_smoke_test" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.all_site_smoke_test" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.all_site_smoke_test" />
       </list>
     </recent_temporary>
   </component>
@@ -616,14 +585,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21474878" sideWeight="0.75404155" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21799028" sideWeight="0.75404155" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27309564" sideWeight="0.28918323" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31236205" sideWeight="0.7155592" order="7" side_tool="true" content_ui="tabs" />
@@ -699,11 +668,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/searching_on_hayneedle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -723,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/searching_on_hayneedle.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/view_saved_address.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
@@ -737,19 +694,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/view_saved_address.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HayneedleScripts/CheckOutProcess.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="153" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.38822246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/searching_on_hayneedle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="20" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/checkout_process.feature">
@@ -759,33 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/checkout_process.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/Data/activeSites.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.64752793">
+        <state line="11" column="43" selection-start="194" selection-end="201" vertical-scroll-proportion="0.22557297">
           <folding />
         </state>
       </provider>
@@ -793,6 +714,62 @@
     <entry file="file://$PROJECT_DIR$/HayneedleScripts/SmokeTest.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/searching_on_hayneedle.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10810811">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.30858085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/view_saved_address.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="679" selection-end="679" vertical-scroll-proportion="0.41530946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/searching_on_hayneedle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/master_method_tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="466" selection-end="466" vertical-scroll-proportion="0.27113238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/all_site_smoke_test.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="59" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hayneedle_Automation/features/step_definitions/all_site_smoke_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="43" selection-start="786" selection-end="786" vertical-scroll-proportion="0.72886765">
           <folding />
         </state>
       </provider>
